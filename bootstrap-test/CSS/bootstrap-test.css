@@ -1,0 +1,9 @@
+.header, .options-links, .column-1, .column-2 {
+	overflow: auto;
+}
+
+.row.no-margin {
+  margin-right: 0;
+  margin-left: 0;
+}
+
