@@ -4,9 +4,10 @@ body {
 }
 
 .wrapper {
-	margin: 0px 25px;
+	margin: 0px auto;
 	overflow: auto;
 	background-color: #A89DC4;
+	max-width: 700px;
 }
 
 .header {
@@ -51,6 +52,9 @@ body {
 }
 
 @media (max-width: 700px) {
+	.wrapper {
+		max-width: 90%;
+	}
 	.column-1, .column-2 {
 		float: none;
 		width: 100%;
